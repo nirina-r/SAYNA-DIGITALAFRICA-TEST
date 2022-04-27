@@ -1,0 +1,365 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./Assets/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: Monserrat-Light;
+    src: url(./Assets/Montserrat-Light.otf);
+}
+
+@font-face{
+    font-family: Montserrat-Medium;
+    src: url(./Assets/Montserrat-Medium.otf);
+}
+
+#logoResponsive {
+    display: none;
+    visibility: hidden;
+}
+
+#header {
+    background-color: #B11313;
+}
+
+nav {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+#navbar {
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    color: white;
+
+}
+
+.logo {
+    margin: 2%;
+}
+
+li {
+    margin: 3%;
+}
+
+#logo {
+    padding-top: 1.5%;
+}
+
+#spiderman{
+    padding: 15% 0% 28% 10%
+} 
+
+.titre1 {
+    font-family: 'Far From Homecoming', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.sous-sous-titre {
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Far From Homecoming', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+p {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+}
+
+
+.footer1 {
+    background-color: #000000;
+    padding: 6% 0;
+}
+
+.footerLien {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+select {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: #B11313;
+    border: 1px solid #B11313;
+    border-radius: 20px;
+    height: 2em;
+    margin: 0 2%;
+}
+
+.réseauxSociaux {
+    background-color: #B11313;
+    border-radius: 50%;
+    width: 150%;
+    padding: 10%;
+}
+
+#réseauxSociaux {
+    width: 100%;
+}
+
+.figure {
+    position: relative;
+}
+
+h1.titre3{
+    font-size: 80px
+}
+
+h1{
+    font-size:32px
+}
+
+.section1 {
+    background-image: url(./Assets/Illustration/img1.png);
+    background-position: top;    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button2 {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 12px;
+    color: #B11313;    
+    background-color: white;
+    border: 1px solid white;    
+    border-radius: 17px; 
+    width: 12em;
+    height: 3em;
+    margin: 1%;
+}
+
+.button1 {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;    
+    border-radius: 17px;    
+    width: 12em;
+    height: 3em;
+    margin: 1%;
+}
+
+.section2 {
+    background-color: #B11313;
+    border: none;
+}
+
+.légende {
+    font-family: Montserrat-Regular, sans-serif;    
+    font-size: 12px;    
+    text-align: justify;
+    color: white;
+}
+
+.point {
+    margin: 0;
+}
+
+.section3 {
+    background-color: #114C92;
+    background-image: url(./Assets/Illustration/img5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    padding: 6% 10% 3% 6%;
+}
+
+.button3 {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: #114C92;
+    border: 1px solid white;
+    border-radius: 17px;
+    width: 15em;
+    height: 3em;
+}
+
+.button3:hover{
+    color: white;
+}
+
+.input1 {
+    height: 2em;
+    width: 20em;
+    border-radius: 20px;
+    border: 1px 1px 1px white;
+}
+
+.input1::placeholder{
+    font-family: Montserrat-Regular;    
+    font-size: 12px;
+}
+
+.formulaire>div>.input1 {
+    border: 1px solid black;
+}
+.formulaire {
+    text-align: right;
+    padding: 2% 0 4% 0;
+}
+
+.section4 {
+    padding: 6% 0 6% 10%;
+    background-color: #B11313;
+    background-image: url(./Assets/Illustration/img6.png);
+    background-size: 32%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#consentement{
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 12px;
+    color:white
+}
+
+.button4 {
+    font-family: Montserrat-Regular, sans-serif;    
+    font-size: 12px;    
+    color: #B11313;    
+    background-color: white;    
+    border-radius: 17px;
+    width: 15em;
+    height: 3em;
+}
+
+.button4:hover{
+    color: #B11313;
+}
+
+.input2 {
+    background-color: #B11313;    
+    border: 1px solid white !important;
+    border-radius: 20px;    
+    width: 16em;
+    height: 2em;
+}
+
+.input2::placeholder {
+    font-family: Montserrat-Regular, sans-serif;    
+    font-size: 12px;   
+    color: white;
+}
+
+.description {
+    color: black;
+    padding: 3% 4%;
+}
+
+
+
+/*écran plus petit*/
+
+@media screen and (max-device-width:768px) {
+    #header{
+        display: none;
+    }
+    #logoResponsive{
+        visibility: visible;
+        padding-top: 5pt;
+        padding-left: 30pt;
+    }
+    #spiderman{
+        padding: 15% 0% 15% 10%
+    }    
+    formulaire {
+        padding-top: 10%;
+    }
+    .input1{
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    .input2{
+        margin-left: 1em;
+    }
+    .section1 {
+        background-size: cover;
+    }
+    h1 {
+        font-size: 18px;    
+        text-align: center;
+        padding-left: 0;
+    }
+    h1.titre3{
+        font-size: 32px;
+        text-align: left;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section3 {
+        text-align: center;
+        padding: 5% 0;
+    }
+    .button2{
+        margin-bottom: 30pt;
+    }    
+    .button3 {
+        padding-right: 0;
+    }
+    .newsletter {
+        padding-top: 0;
+    }
+    .spidermen {
+        padding-left: 0%;
+        text-align: center;
+    }
+    .section4 {
+        background-position: right bottom;
+        background-size: 40%;
+    }
+    #consentement{
+        font-family: Montserrat-Regular, sans-serif;
+        font-size: 10px;
+        color:white;
+        padding-right: 20%;
+        padding-top: 0%;
+        display: block;
+    }
+    .inscription {
+        text-align: center;
+    }
+    #audio{
+        padding-top: 5%;
+    }
+    #langue{
+        font-family: Montserrat-Light;    
+        font-size: 10px;
+        padding: 2pt;
+        height: 100%;
+    }
+    .footerLien {
+        font-family: Montserrat-Light, sans-serif;
+        font-size: 10px;
+        color: white;
+        text-decoration: none;  
+    }
+    .footerLogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
